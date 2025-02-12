@@ -1,0 +1,45 @@
+/* font-family: "poppins", sans-serif; */
+
+/* - Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%) */
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+:root {
+  /* font family */
+  --ff-sans: "Poppins", sans-serif;
+  /* light wight, normal, bold size */
+  --fw-light: 200;
+  --fw-normal: 400;
+  --fw-bold: 600;
+  /* font size */
+  --fs-400: 0.9375rem;
+  --fs-500: 1.25rem;
+  --fs-900: 2.5rem;
+  --clr-netural-900: hsl(234, 12%, 34%);
+  --clr-netural-400: hsl(229, 6%, 66%);
+  --clr-netural-100: hsl(0, 0%, 98%);
+  --clr-teal: hsl(180, 62%, 55%);
+  --clr-red: hsl(0, 78%, 62%);
+  --clr-blue: hsl(212, 86%, 64%);
+  --clr-orange: hsl(34, 97%, 64%);
+}
+body {
+  font-weight: 600;
+}
